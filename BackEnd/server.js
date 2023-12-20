@@ -24,7 +24,7 @@ const mongoose = require('mongoose');
 // Connect to MongoDB using async/await
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb+srv://LukeCorcoran:AVI23AVI@cluster0.ozbe7un.mongodb.net/');
+  await mongoose.connect('mongodb+srv://admin:admin@martinscluster.w5rtkz0.mongodb.net/DB14?retryWrites=true&w=majority');
 }
 
 // Define the schema for the 'food' collection
